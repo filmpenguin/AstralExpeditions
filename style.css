@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+   width: 100%;
+   height: 100vh;
+   background-image: url(Images/earth-from-space.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 45px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover{
+    background: navy;
+}
+
+.logo{
+    width: 120px;
+    margin: 12px 45px;
+    cursor: pointer;
+}
+
+.home-text-1 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-text-2 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 250;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*.home-text-3{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-text-list{
+    padding: 0.5rem 2.75rem;
+}*/
+
+.home-text-4 h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-text-5 h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 150;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.book{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/earth-sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.book-text{
+    color: white;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/earth-sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text{
+    color: white;
+}
+
+.prepare{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/earth-sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.prepare-text{
+    color: white;
+}
+
+.tech{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/earth-sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tech-text {
+    color: white;
+}
+
+/*.trip{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}*/
+
+.trip-type .earth-box, .moon-box{
+    z-index: 222;
+    background: rgba(255, 255, 266, 0.1);
+    backdrop-filter: blur;
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 266, 0.1);
+    border-radius: 10px;
+/*    transform: translate(-80px, 50px);*/
+}
+
+.trip-type .earth-box, .moon-box h3{
+    color:white;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.trip-type .earth-box, .moon-box p{
+    color:white;
+    margin-bottom: 10px;
+}
+
+/*.trip-type .earth-box{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    top: 70%;
+    left:20%;
+}
+
+.trip-type .moon-box{
+/*    position: absolute;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    top: 70%;
+    left:60%;
+}*/
+
+
